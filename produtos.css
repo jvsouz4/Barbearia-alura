@@ -1,12 +1,12 @@
-header{
+header {
 	background: #BBBBBB;
 	padding: 20px 0;
 }
 
-.caixa {
+.nav {
 	position: relative;
 	width: 80%;
-	margin: 0 auto;
+	margin: auto auto;
 }
 
 nav {
