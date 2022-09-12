@@ -4,7 +4,7 @@ body {
 
 header {
 	background: #BBBBBB;
-	padding: 20px 0;
+	padding: 2em 0;
 }
 
 main {
@@ -87,10 +87,9 @@ nav a:hover {
 }
 
 .titulo-centralizado {
-	font-weight: bold;
 	font-size: 2em;
 	text-align: center;
-	margin: 0 0 20px;
+	margin: 0 0 2em;
 }
 
 .principal p {
@@ -111,6 +110,10 @@ nav a:hover {
 
 .itens:first-child {
 	font-weight: bold;
+}
+
+.itens:before {
+	content: "✧ ";
 }
 
 .beneficios {
