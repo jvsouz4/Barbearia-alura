@@ -72,7 +72,7 @@ nav a:hover {
 
 .mapinha {
 	width: 100%;
-	box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 22%);
+	box-shadow: 4px 0px 4px 4px rgb(0 0 0 / 22%), -4px 0px 4px 4px rgb(0 0 0 / 22%);
 }
 
 .mapa p {
@@ -136,6 +136,7 @@ ul {
 .imagembeneficios {
 	width: 60%;
 	opacity: 1;
+	box-shadow: 4px 0px 4px 4px rgb(0 0 0 / 22%), -4px 0px 4px 4px rgb(0 0 0 / 22%);
 }
 
 .imagembeneficios:hover {
